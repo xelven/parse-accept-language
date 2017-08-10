@@ -3,7 +3,7 @@
 [![PyPI version](https://badge.fury.io/py/parse-accept-language.svg)](https://badge.fury.io/py/parse-accept-language)
 
 
-Parse Accept-Language HTTP header.
+Parse Accept-Language HTTP header (https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14).
 
 ## Installation
 
