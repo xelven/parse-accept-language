@@ -1,8 +1,6 @@
 # parse-accept-language
 
 [![PyPI version](https://badge.fury.io/py/parse-accept-language.svg)](https://badge.fury.io/py/parse-accept-language)
-[![Test Coverage](https://codeclimate.com/repos/598c52517d0aa002650005c2/badges/b222497d926f96e8a92d/coverage.svg)](https://codeclimate.com/repos/598c52517d0aa002650005c2/coverage)
-[![Issue Count](https://codeclimate.com/repos/598c52517d0aa002650005c2/badges/b222497d926f96e8a92d/issue_count.svg)](https://codeclimate.com/repos/598c52517d0aa002650005c2/feed)
 
 
 Parse Accept-Language HTTP header.
