@@ -46,7 +46,7 @@ def parse_accept_language(accept_language_str, default_quality=None):
             lang_code, quality_value = accept_lang_segment.split(';')
             quality_value = float(QUALITY_VAL_SUB_REGEX.sub('', quality_value))
 
-        lang_code_components = lang_code.split('-')
+        lang_code_components = re.split('-|_', lang_code)
         if not all(VALIDATE_LANG_REGEX.match(c) for c in lang_code_components):
             continue
 
