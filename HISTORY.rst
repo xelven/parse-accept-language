@@ -3,7 +3,7 @@
 Release History
 ---------------
 
-0.1.2 (unreleased)
+0.1.2 (2017-09-04)
 ++++++++++++++++++
 
 - Fixed parsing of headers containing locale string with an underscore in it, such as "en_GB".
