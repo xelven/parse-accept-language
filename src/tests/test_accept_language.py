@@ -5,6 +5,7 @@ from accept_language import Lang, parse_accept_language, MAX_HEADER_LEN
 
 @pytest.mark.parametrize('header_string, exp_result', [
     ('en-US', [Lang(locale='en_US', language='en', quality=1.0)]),
+    ('en_US', [Lang(locale='en_US', language='en', quality=1.0)]),
     ('es', [Lang(locale=None, language='es', quality=1.0)]),
     (
         'es-mx;q=0.8,es,en',
