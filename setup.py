@@ -23,9 +23,7 @@ setup(
     keywords='python, accept-language, parse, headers',
     maintainer_email='chatbot-developers@babylonhealth.com',
     license='Apache License 2.0',
-    long_description=(
-        'https://github.com/Babylonpartners/parse-accept-language'
-    ),
+    url='https://github.com/xelven/parse-accept-language',
     install_requires=[],
     classifiers=[
         'Intended Audience :: Developers',
